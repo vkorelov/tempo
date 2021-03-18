@@ -4601,6 +4601,10 @@ button {
   cursor: pointer;
 }
 
+.main__info-youtube:hover {
+  opacity: .8;
+}
+
 .main__info-youtube i {
   color: red;
   position: absolute;
@@ -5060,7 +5064,7 @@ button {
 
 .certificates__shadowtitle {
   color: #050f10;
-  left: -41%;
+  left: -2%;
   bottom: -24%;
 }
 

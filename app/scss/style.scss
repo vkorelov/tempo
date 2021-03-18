@@ -1,7 +1,7 @@
 @import "vars";
 @import "fonts";
 @import "global";
-// @import "scroll";
+
 
 // Home page / Total styles
 
@@ -141,6 +141,10 @@
       font-size: 1rem;
       font-weight: 500;
       cursor: pointer;
+
+      &:hover {
+        opacity: .8;
+      }
       
       i {
         color: red;
@@ -151,6 +155,8 @@
         height: 32px;
         
       }
+
+      
     }
   }
 
@@ -516,7 +522,7 @@
   }
   &__shadowtitle {
     color: #050f10;
-    left: -41%;
+    left: -2%;
     bottom: -24%;
   }
   &__section-number {
